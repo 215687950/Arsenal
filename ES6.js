@@ -2,7 +2,7 @@
  * @fileOverview  ES6常用知识
  * @author        guangyu jin
  * @date          2018-04-09
- * @directory     解构赋值用途、字符串
+ * @directory     解构赋值用途、字符串、函数
  */
 
 
@@ -95,4 +95,15 @@ s.endsWith('Hello', 5) // true 前n个
 s.includes('Hello', 6) // false 第n个
 
 // 2、repeat(): 返回一个新字符串，将原字符串重复n次
+
+// 3、padStart(Number, content)、padEnd(): 补全字符串长度
+
+  // padStart() 常见用途
+  '1'.padStart(10, '0'); // '0000000001' 补全指定位数
+  '12'.padStart(10, 'YYYY-MM-DD'); // 'YYYY-MM-12' 提示字符串格式
+
+
+/**
+ * 函数
+ */
 
